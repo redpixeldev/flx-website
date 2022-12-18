@@ -1,0 +1,36 @@
+{
+	"name": "eleventy-starter",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"develop": "npx @11ty/eleventy --serve --quiet --incremental",
+		"build": "npx @11ty/eleventy"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"> 1%"
+	],
+	"license": "ISC",
+	"dependencies": {
+		"@11ty/eleventy": "^2.0.0-canary.18",
+		"@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
+		"@11ty/eleventy-img": "^2.0.1",
+		"@alpinejs/collapse": "^3.10.5",
+		"@alpinejs/focus": "^3.10.5",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/typography": "^0.5.8",
+		"alpinejs": "^3.10.5",
+		"autoprefixer": "^10.4.13",
+		"concurrently": "^7.6.0",
+		"cssnano": "^5.1.14",
+		"dotenv": "^16.0.3",
+		"postcss": "^8.4.19",
+		"postcss-cli": "^10.1.0",
+		"tailwindcss": "^3.2.4"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.1",
+		"prettier-plugin-tailwindcss": "^0.2.0"
+	}
+}
