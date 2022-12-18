@@ -22,16 +22,16 @@
 			rel="stylesheet"
 			href="{{ '/assets/styles/main.css' | url }}"
 		/>
+
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
 		<script
 			type="module"
 			src="{{ '/assets/js/main.js' | url }}"
 		></script>
 	</head>
 
-	<body
-		x-data
-		:class="{'relative overflow-hidden max-h-screen': $store.mobileMenu.isOpen }"
-	>
+	<body>
 		<main>
 			<!-- prettier-ignore -->
 			{% include "partials/header.html" %}
