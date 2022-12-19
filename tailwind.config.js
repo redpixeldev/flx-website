@@ -18,11 +18,11 @@ module.exports = {
 
 		extend: {
 			colors: {
-				"camBlue": "#17acff",
-				"camDark": "#172030",
-				"camBlack": "#21242b",
-				"camGray": "#6d727e",
-				"camGrayLight": "#fafcff",
+				"flxBlue": "#17acff",
+				"flxDark": "#172030",
+				"flxBlack": "#21242b",
+				"flxGray": "#6d727e",
+				"flxGrayLight": "#fafcff",
 			}
 		}
   },
