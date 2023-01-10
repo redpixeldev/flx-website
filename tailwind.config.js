@@ -23,7 +23,10 @@ module.exports = {
 				"flxBlack": "#21242b",
 				"flxGray": "#6d727e",
 				"flxGrayLight": "#fafcff",
-			}
+			},
+			boxShadow: {
+				DEFAULT: '0 0 30px rgb(0 0 0 / 0.07)',
+			},
 		}
   },
   plugins: [
