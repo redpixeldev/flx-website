@@ -26,6 +26,7 @@ module.exports = {
 			},
 			boxShadow: {
 				DEFAULT: '0 0 30px rgb(0 0 0 / 0.07)',
+				icon: '0 8px 8px rgb(0 0 0 / 0.1)',
 			},
 		}
   },
