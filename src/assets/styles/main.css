@@ -11,3 +11,7 @@
 		@apply hidden !important;
 	}
 }
+
+[type='checkbox']:checked {
+	background: none;
+}

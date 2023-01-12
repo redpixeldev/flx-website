@@ -29,6 +29,9 @@ module.exports = {
 				icon: '0 8px 8px rgb(0 0 0 / 0.1)',
 				pricing: '0 40px 50px rgb(0 0 0 / 0.07)',
 			},
+			opacity: {
+				2: '0.02',
+			},
 		}
   },
   plugins: [
