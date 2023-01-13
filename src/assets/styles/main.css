@@ -32,11 +32,11 @@
 	}
 
 	&.primary-blue-big {
-		@apply text-flxGrayLight bg-[#17acff] text-xl rounded-lg px-8 py-5 inline-block;
+		@apply text-flxGrayLight bg-[#17acff] text-lg md:text-xl rounded-lg px-8 py-4 md:py-5 inline-block;
 	}
 
 	&.primary-blue-chevron {
-		@apply font-bold text-flxGrayLight bg-[#17acff] text-xl rounded-lg px-12 py-5 flex gap-6 items-center;
+		@apply font-bold text-flxGrayLight bg-[#17acff] text-lg md:text-xl rounded-lg px-9 md:px-12 py-4 md:py-5 flex gap-4 md:gap-6 items-center;
 	}
 
 	&.primary-underline {
@@ -48,6 +48,6 @@
 	}
 
 	&.primary-dark {
-		@apply px-8 py-5 text-xl rounded-lg text-flxGrayLight bg-flxDark inline-block;
+		@apply px-8 py-4 md:py-5 text-lg md:text-xl rounded-lg text-flxGrayLight bg-flxDark inline-block;
 	}
 }
