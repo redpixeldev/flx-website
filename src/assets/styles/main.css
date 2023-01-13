@@ -15,3 +15,39 @@
 [type='checkbox']:checked {
 	background: none;
 }
+
+.button {
+	@apply font-sourceSans;
+
+	&.primary-yellow {
+		@apply bg-[#fae1b6] rounded-lg px-6 xl:px-7 py-3 text-flxDark xl:text-[17px] inline-flex gap-2.5 items-center;
+	}
+
+	&.primary-white {
+		@apply bg-white rounded-lg px-6 xl:px-7 py-3 lg:py-3.5 xl:py-4 font-bold text-flxDark xl:text-lg inline-flex gap-2.5 items-center;
+	}
+
+	&.primary-blue {
+		@apply bg-flxBlue rounded-lg px-6 xl:px-7 py-3 lg:py-3.5 xl:py-4 text-white xl:text-xl;
+	}
+
+	&.primary-blue-big {
+		@apply text-flxGrayLight bg-[#17acff] text-xl rounded-lg px-8 py-5 inline-block;
+	}
+
+	&.primary-blue-chevron {
+		@apply font-bold text-flxGrayLight bg-[#17acff] text-xl rounded-lg px-12 py-5 flex gap-6 items-center;
+	}
+
+	&.primary-underline {
+		@apply border-b border-solid border-flxDark px-6 xl:px-7 py-3 lg:py-3.5 xl:py-4 font-bold text-flxDark xl:text-xl;
+	}
+
+	&.primary-underline-small {
+		@apply underline text-[#707989] text-lg;
+	}
+
+	&.primary-dark {
+		@apply px-8 py-5 text-xl rounded-lg text-flxGrayLight bg-flxDark inline-block;
+	}
+}
